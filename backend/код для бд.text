@@ -1,0 +1,13 @@
+
+create table TODOS (
+    id int primary key auto_increment,
+    text varchar(100),
+    status bit default 0
+);
+
+select * from todos;
+
+insert into todos VALUES(1, 'Выучить React', 0);
+INSERT into todos (text) VALUES ('Выучить CSS');
+
+дз: прочитать metanit  
