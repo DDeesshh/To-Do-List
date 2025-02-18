@@ -5,7 +5,7 @@ import { connection } from "../connectDB.js";
 
 // функция вывода данных
 export const select = (async (req, res) => {
-    connection.query("SELECT * FROM todos order by status",
+    connection.query("SELECT * FROM todos order by id",
         function (err, results) {
             if (err) return res.json(err);
             else {

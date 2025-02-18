@@ -2,7 +2,7 @@
 
 export async function deleteToDosAll() {
     console.log("Удаление всех дел");
-    let response = await fetch('http://localhost:3000/deleteAll', {
+    let response = await fetch('http://localhost:3001/deleteAll', {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json;charset=utf-8'

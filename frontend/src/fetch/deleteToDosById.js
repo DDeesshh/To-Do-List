@@ -1,8 +1,8 @@
 // удаление дел из базы данных по id
 
 export async function deleteToDosById(id) {
-    console.log(id);
-    let response = await fetch(`http://localhost:3000/deleteById/${id}`, {
+    console.log("ID для удаления: " , id);
+    let response = await fetch(`http://localhost:3001/deleteById/${id}`, {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json;charset=utf-8'

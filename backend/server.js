@@ -17,7 +17,7 @@ import { update } from "./Controllers/update.js";
 // запустили express
 const app = express();
 // подключили порт
-const port = 3000;
+const port = 3001;
 
 // прослушивание порта
 app.listen(port, () => {
